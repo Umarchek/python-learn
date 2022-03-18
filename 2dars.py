@@ -30,3 +30,21 @@ if c=='+':
 if c=='/':
 	print(a/b)
 """	
+
+#Homework start
+a=int(input('Iltimos birinchi sonni kiriting: '))
+b=int(input('Iltimos ikkinchi sonni kiriting: '))
+textAmal='Iltimos amalni kiriting: '
+error='kechirasiz bunaqa amal xali bizda mavjud emas :)))'
+if b:
+	Amallar=str(input(textAmal))
+if Amallar=="+":
+	print('agar',a,'ni',b,'ga qoshsak',a+b,'javobi chiqadi :)')
+elif Amallar=="-":
+	print('agar',a,'dan',b,'ni ayrsak',a-b,'javobi chiqadi :)')
+elif Amallar=="*":
+	print('agar',a,'ni',b,"ga ko'paytirsak",a*b,'javobi chiqadi :)')
+elif Amallar=="/":
+	print('agar',a,'ni',b,"ga bo'lsak",a/b,'javobi chiqadi :)')
+else:
+	print(error)
