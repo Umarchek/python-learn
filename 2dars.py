@@ -21,6 +21,7 @@ else:
 	print('a c da mavjud mas')
 """
 #mini calculator
+"""
 a=int(input('birinchi sonni kiriting: '))
 b=int(input('ikkinchi sonni kiriting: '))
 c=str(input('amalni kiriting: '))
@@ -28,3 +29,4 @@ if c=='+':
 	print(a+b)
 if c=='/':
 	print(a/b)
+"""	
