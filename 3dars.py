@@ -32,10 +32,21 @@ for i in 'salom dunyo':
 		#break
 		continue
 	print(i*1,end=" ")
-"""
+
+#def func
 def func(n):
 	a,b=0,1
 	while b<n:
 		print(b)
 		a,b=b,a+b
 func(2000)
+"""
+#def raqamlar
+def raqamlar(n):
+	sum=0
+	while n!=0:
+		sum+=n%10
+		n=n//10
+	return sum
+s=int(input('istagan sonni kiriting: '))
+print('siz kiritgan sonning raqamlar yig`indisi',raqamlar(s),'ga teng')
