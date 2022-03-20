@@ -18,9 +18,10 @@ while k<=100:
 	print(k)
 	k+=1 #kga 
 	#2ni qo'shish #faqat 10gacha kirgizadi chunki 10dan keyn 10dan katta bo'ladi
-"""
 #for
 for i in 'salom dunyo':
 	print(i*2,end=' ')
-
-	
+"""
+a=['mening','hp','laptopim','bor']
+for i in range(len(a)):
+	print(i,a[i])
