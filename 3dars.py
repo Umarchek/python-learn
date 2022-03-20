@@ -21,7 +21,14 @@ while k<=100:
 #for
 for i in 'salom dunyo':
 	print(i*2,end=' ')
-"""
+#len (read)
 a=['mening','hp','laptopim','bor']
 for i in range(len(a)):
 	print(i,a[i])
+"""
+#break
+for i in 'salom dunyo':
+	if i=="o":
+		#break
+		continue
+	print(i*1,end=" ")
