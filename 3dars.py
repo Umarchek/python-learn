@@ -40,7 +40,7 @@ def func(n):
 		print(b)
 		a,b=b,a+b
 func(2000)
-"""
+
 #def raqamlar
 def raqamlar(n):
 	sum=0
@@ -50,3 +50,19 @@ def raqamlar(n):
 	return sum
 s=int(input('istagan sonni kiriting: '))
 print('siz kiritgan sonning raqamlar yig`indisi',raqamlar(s),'ga teng')
+"""
+#homework
+import msvcrt, sys
+kitoblar=str(input('Kitobni kiriting: '))
+
+# for i in kitoblar:
+# 	if kitoblar !='stop':
+# 		print(kitoblar)
+# 	elif kitoblar == "stop":
+# 		print(i)
+# 		sys.exit()
+
+while kitoblar!='stop':
+	kitoblar=str(input('Kitobni kiriting: ')) 
+if kitoblar=='stop':
+	print(kitoblar)
