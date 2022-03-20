@@ -25,10 +25,17 @@ for i in 'salom dunyo':
 a=['mening','hp','laptopim','bor']
 for i in range(len(a)):
 	print(i,a[i])
-"""
+
 #break
 for i in 'salom dunyo':
 	if i=="o":
 		#break
 		continue
 	print(i*1,end=" ")
+"""
+def func(n):
+	a,b=0,1
+	while b<n:
+		print(b)
+		a,b=b,a+b
+func(2000)
