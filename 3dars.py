@@ -11,9 +11,16 @@ elif oy in [1,3,5,7,8,10,12]:
 else :
 	kun=30
 print(oy,'oy ',kun,'kundan iborat')
-"""
 
+#while test
 k=1
-while k<=10:
+while k<=100:
 	print(k)
-	k+=2 #kga 2ni qo'shish
+	k+=1 #kga 
+	#2ni qo'shish #faqat 10gacha kirgizadi chunki 10dan keyn 10dan katta bo'ladi
+"""
+#for
+for i in 'salom dunyo':
+	print(i*2,end=' ')
+
+	
