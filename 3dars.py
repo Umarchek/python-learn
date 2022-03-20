@@ -50,19 +50,13 @@ def raqamlar(n):
 	return sum
 s=int(input('istagan sonni kiriting: '))
 print('siz kiritgan sonning raqamlar yig`indisi',raqamlar(s),'ga teng')
-"""
-#homework
-import msvcrt, sys
-kitoblar=str(input('Kitobni kiriting: '))
 
-# for i in kitoblar:
-# 	if kitoblar !='stop':
-# 		print(kitoblar)
-# 	elif kitoblar == "stop":
-# 		print(i)
-# 		sys.exit()
+#homework #1
+kitoblar=str(input('Kitobni kiriting: '))
 
 while kitoblar!='stop':
 	kitoblar=str(input('Kitobni kiriting: ')) 
-if kitoblar=='stop':
-	print(kitoblar)
+"""
+ismlar=['Alisher','Lobar','Sherxon','Latif','Asl']
+for ism in ismlar:
+	print(ism,'test')
