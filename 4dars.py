@@ -20,5 +20,9 @@
 # print(a.upper())
 
 #Replace - o'zgartirib beradi
-b='Sog` tanda sog`lom aql'
-print(b.replace('aql','birnarsa'))
+# b='Sog` tanda sog`lom aql'
+# print(b.replace('aql','birnarsa'))
+
+#Split satrni ajratib chiqadi
+a='Python bilan ishlash Juda Ajoyib'
+print(a.split(" "))
