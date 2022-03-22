@@ -32,6 +32,13 @@
 # if x==True:
 # 	print('Iltimos xaqoratli so`zlar ishlatmang')
 
-yosh=input('yoshingizni kiriting: ')
-matn='Sizning yoshingiz {}da '
-print(matn.format(yosh))
+#format valueni qo'yib beradi.
+# yosh=input('yoshingizni kiriting: ')
+# matn='Sizning yoshingiz {}da '
+# print(matn.format(yosh))
+
+#Set qushib beraadi
+
+toq={1,3,5,7,9}
+juft=set((2,4,6,8))
+print(toq,juft)
