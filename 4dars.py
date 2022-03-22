@@ -12,5 +12,9 @@
 # print(a.strip())
 
 #Lower - satrdagi barcha harflarni kichkina yozuvda
-a='Markaziy osiyo'
-print(a.lower())
+# a='Markaziy osiyo'
+# print(a.lower())
+
+#Upper - satrdagi barcha harflarni katta yozuvda
+a='markaziy osiyo'
+print(a.upper())
