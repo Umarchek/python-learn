@@ -24,5 +24,10 @@
 # print(b.replace('aql','birnarsa'))
 
 #Split satrni ajratib chiqadi
-a='Python bilan ishlash Juda Ajoyib'
-print(a.split(" "))
+# a='Python bilan ishlash Juda Ajoyib'
+# print(a.split(" "))
+
+a='Ey san pubg uynashni bilmesan san bot san'
+x="bot" in a
+if x==True:
+	print('Iltimos xaqoratli so`zlar ishlatmang')
