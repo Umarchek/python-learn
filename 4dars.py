@@ -16,5 +16,9 @@
 # print(a.lower())
 
 #Upper - satrdagi barcha harflarni katta yozuvda
-a='markaziy osiyo'
-print(a.upper())
+# a='markaziy osiyo'
+# print(a.upper())
+
+#Replace - o'zgartirib beradi
+b='Sog` tanda sog`lom aql'
+print(b.replace('aql','birnarsa'))
