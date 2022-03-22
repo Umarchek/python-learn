@@ -8,5 +8,9 @@
 # print(a[1:5]) #1chi elemdan 4chi elemgacha
 
 #Strip - bo'sh joylarni ob tashlaydi
-a='  salomlar  '
-print(a.strip())
+# a='  salomlar  '
+# print(a.strip())
+
+#Lower - satrdagi barcha harflarni kichkina yozuvda
+a='Markaziy osiyo'
+print(a.lower())
