@@ -27,7 +27,11 @@
 # a='Python bilan ishlash Juda Ajoyib'
 # print(a.split(" "))
 
-a='Ey san pubg uynashni bilmesan san bot san'
-x="bot" in a
-if x==True:
-	print('Iltimos xaqoratli so`zlar ishlatmang')
+# a='Ey san pubg uynashni bilmesan san bot san'
+# x="bot" in a
+# if x==True:
+# 	print('Iltimos xaqoratli so`zlar ishlatmang')
+
+yosh=input('yoshingizni kiriting: ')
+matn='Sizning yoshingiz {}da '
+print(matn.format(yosh))
